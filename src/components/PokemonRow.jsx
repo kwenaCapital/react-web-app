@@ -14,6 +14,10 @@ const PokemonRow = ({ pokemon, onClick }) => (
           variant="contained"
           color="primary"
           onClick={() => onClick(pokemon)}
+          style={{
+            backgroundColor: "lightgrey",
+            color:"darkgreen",
+          }}
         >
           More Information
         </Button>
